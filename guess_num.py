@@ -13,5 +13,6 @@ while True:
 		print('The num is < answer')
 	elif num == r:
 		print('Yes! You GOOD')
+		print('you guess', count, 'times') #為了在猜中最後一次的計數
 		break
 	print('you guess', count, 'times')
